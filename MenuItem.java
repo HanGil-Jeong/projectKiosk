@@ -1,20 +1,12 @@
-public class MenuItem{
+public class MenuItem {
 
-    // 속성
     String foodName;
-    String foodItro;
     double price;
+    String foodIntro;
 
-    //생성자
-    public MenuItem(String foodName, double price, String foodItro){
+    MenuItem(String foodName, double price, String foodIntro){
         this.foodName = foodName;
-        this.foodItro = foodItro;
         this.price = price;
+        this.foodIntro = foodIntro;
     }
-
-    //기능
-
-
-
-
 }
