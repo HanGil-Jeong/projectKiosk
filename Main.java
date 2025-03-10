@@ -8,10 +8,10 @@ public class Main {
 
         String choiceNumber = "";
 
-        while (!choiceNumber.equals("0")){
+        do {
             Kiosk menu = new Kiosk();
             choiceNumber = scanner.next();
             Kiosk menuChoice = new Kiosk(choiceNumber);
-        }
+        } while (!choiceNumber.equals("0"));
     }
 }
