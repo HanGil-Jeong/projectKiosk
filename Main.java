@@ -6,7 +6,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        String choiceNumber = "";
+        String choiceNumber;
 
         do {
             Kiosk menu = new Kiosk();
