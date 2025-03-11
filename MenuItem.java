@@ -1,18 +1,18 @@
-public class MenuItem{
 
-    // 속성
+public class MenuItem{
+    // MenuItem 속성 생성
     String foodName;
     String foodItro;
     double price;
 
-    //생성자
+    // MenuItem 생성자 생성
     public MenuItem(String foodName, double price, String foodItro){
         this.foodName = foodName;
         this.foodItro = foodItro;
         this.price = price;
     }
 
-    //기능
+
 
 
 
