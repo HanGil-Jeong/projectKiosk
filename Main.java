@@ -25,7 +25,7 @@ public class Main {
                 selectNumber++;
             }
             System.out.println("0. 종료      | 종료");
-            // 키오스크 메뉴 선택 로직 생성
+            // 선택 로직 생성
             choice = scanner.next();
             switch (choice) {
                 case "1":
