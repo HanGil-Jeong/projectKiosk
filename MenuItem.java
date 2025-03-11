@@ -11,10 +11,4 @@ public class MenuItem{
         this.foodItro = foodItro;
         this.price = price;
     }
-
-
-
-
-
-
 }
