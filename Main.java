@@ -6,13 +6,17 @@ public class Main {
         // 스캐너 선언
         Scanner scanner = new Scanner(System.in);
 
-        String choiceNumber;
-        // do-while문 활용 Kiosk 반복 실행
-        do {
-            // Kiosk클래스 menu 인스턴스화
-            Kiosk menu = new Kiosk();
+        Menu menu = new Menu();
+
+        menu.showMenuCategory();
+
+        String choiceNumber = "";//
+        // while문 활용 Kiosk 반복 실행
+        while (!choiceNumber.equals("0")){
             choiceNumber = scanner.next();
-            Kiosk menuChoice = new Kiosk(choiceNumber);
-        } while (!choiceNumber.equals("0"));
+
+        }
+
+
     }
 }
